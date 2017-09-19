@@ -52,4 +52,5 @@ public class ResultActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ChoiceActivity.class);
         startActivity(intent);
     }
+
 }
