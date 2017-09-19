@@ -29,6 +29,8 @@ public class ResultActivity extends AppCompatActivity {
 
         elements = new RockPaperScissors();
 
+        numberGenerator = new NumberGenerator();
+
         String randomChoiceByComputer = elements.getRandomElement(numberGenerator);
 
         Intent intent = getIntent();
@@ -40,8 +42,8 @@ public class ResultActivity extends AppCompatActivity {
 
         String finalResult = game.playGame();
 
-        computerChoice.setText("Computer chose " + computerChoice);
-        playerChoice.setText("Player chose " + playerChoice);
+        computerChoice.setText("Computer chose " + randomChoiceByComputer);
+        playerChoice.setText("Player chose " + playerChoiceFromButton);
         result.setText(finalResult);
 
     }

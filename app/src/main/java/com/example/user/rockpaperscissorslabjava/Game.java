@@ -15,25 +15,25 @@ public class Game {
     }
 
     public String playGame() {
-        if (playerChoice == computerChoice) {
+        if (playerChoice.equals(computerChoice)) {
             return "Draw";
         }
-        if (playerChoice == "Paper" && computerChoice == "Scissors") {
+        if (playerChoice.equals("Paper") && computerChoice.equals("Scissors")) {
             return "Computer Wins";
         }
-        if (playerChoice == "Paper" && computerChoice == "Rock") {
+        if (playerChoice.equals("Paper") && computerChoice.equals("Rock")) {
             return "Player Wins";
         }
-        if (playerChoice == "Rock" && computerChoice == "Paper") {
+        if (playerChoice.equals("Rock") && computerChoice.equals("Paper")) {
             return "Computer Wins";
         }
-        if (playerChoice == "Rock" && computerChoice == "Scissors") {
+        if (playerChoice.equals("Rock") && computerChoice.equals("Scissors")) {
             return "Player Wins";
         }
-        if (playerChoice == "Scissors" && computerChoice == "Paper") {
+        if (playerChoice.equals("Scissors") && computerChoice.equals("Paper")) {
             return "Player Wins";
         }
-        if (playerChoice == "Scissors" && computerChoice == "Rock") {
+        if (playerChoice.equals("Scissors") && computerChoice.equals("Rock")) {
             return "Computer Wins";
         }
         else return null;

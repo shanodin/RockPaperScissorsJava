@@ -3,4 +3,5 @@
     <string name="rules_text">Player chooses Rock, Paper or Scissors, computer will randomly choose an option too. Rock wins against Scissors. Scissors wins against Paper. Paper wins against Rock. Game ends in draw if both choices are the same.</string>
     <string name="choice_activity_header">Make your choice!</string>
     <string name="choice_activity_title">ChoicePage</string>
+    <string name="result_activity_title">Results</string>
 </resources>

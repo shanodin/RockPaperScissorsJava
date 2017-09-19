@@ -20,7 +20,10 @@
             android:name=".ChoiceActivity"
             android:label="@string/choice_activity_title"
             android:parentActivityName=".RulesActivity"></activity>
-        <activity android:name=".ResultActivity"></activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/result_activity_title"
+            android:parentActivityName=".ChoiceActivity"></activity>
     </application>
 
 </manifest>
